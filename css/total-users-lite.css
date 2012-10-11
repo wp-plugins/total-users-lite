@@ -1,0 +1,55 @@
+.50711032c56ac {
+	color: orange;
+}
+div.total-users {
+    font-size: 11px;
+    min-height: 30px;
+    position: relative;
+	clear: both;
+	*zoom: 1;
+}
+div.total-users:after {
+	clear: both;
+}
+div.total-users:before,
+div.total-users:after {
+	display: table;
+	content: "";
+}
+
+div.total-users span.role {
+    border: 1px solid #b92a2a;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+		    border-radius: 2px;
+    display: inline;
+    margin-right: 20px;
+    padding: 2px 5px 2px 0;
+	font-weight: bold;
+	color: #b92a2a;
+}
+div.total-users span.role:last-child {
+    margin-right: 0;
+}
+div.total-users span.role span {
+	padding: 2px 5px;
+	margin-right: 5px;
+    color: #FFFFFF; 
+    background: none repeat scroll 0 0 #b92a2a;
+	text-shadow: none;
+}
+div.total-users p.pnone {
+    float: none;
+}
+div.total-users p.pleft {
+    float: left;
+	margin-right: 10px;
+}
+div.total-users p.pright {
+    clear: both;
+    float: right;
+    margin-left: 10px;
+}
+img.titleIcon {
+	margin-right: 9px;
+}
